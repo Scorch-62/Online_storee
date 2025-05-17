@@ -1,0 +1,50 @@
+[
+{
+    "model": "Catalog.category",
+    "pk": 1,
+    "fields": {
+        "name": "Фантастика",
+        "description": ""
+    }
+},
+{
+    "model": "Catalog.category",
+    "pk": 2,
+    "fields": {
+        "name": "ужасы",
+        "description": ""
+    }
+},
+{
+    "model": "Catalog.category",
+    "pk": 3,
+    "fields": {
+        "name": "Детективы",
+        "description": ""
+    }
+},
+{
+    "model": "Catalog.category",
+    "pk": 4,
+    "fields": {
+        "name": "Фантастика",
+        "description": ""
+    }
+},
+{
+    "model": "Catalog.category",
+    "pk": 5,
+    "fields": {
+        "name": "ужасы",
+        "description": ""
+    }
+},
+{
+    "model": "Catalog.category",
+    "pk": 6,
+    "fields": {
+        "name": "Детективы",
+        "description": ""
+    }
+}
+]
