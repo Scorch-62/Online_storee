@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши контакты</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+        body {
+            display: flex;
+            margin: 0;
+            height: 100vh;
+        }
+        .nav-sidebar {
+            width: 200px;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .nav-sidebar .nav-link {
+            color: white;
+        }
+        .nav-sidebar .nav-link:hover {
+            background-color: #444;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+    </style>
+<body>
+<nav class="nav-sidebar">
+    <div class="menu-title">
+
+
+        <i class="fas fa-bars"></i>Меню
+    </div>
+    <div class="nav flex-column">
+        <a class="nav-link" href="home.html">Главная</a>
+        <a class="nav-link" href="catalog.html">Каталог</a>
+        <a class="nav-link" href="category.html">Ассортимент</a>
+        <a class="nav-link" href="contacts.html">Контакты</a>
+    </div>
+
+    <div class="dropdown mt-auto">
+
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Пользаватель
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Профиль</a></li>
+    <li><a class="dropdown-item" href="#">Заказы</a></li>
+    <li><a class="dropdown-item" href="#">Выход</a></li>
+  </ul>
+</div>
+
+        </div>
+</nav>
+
+<div class="text-center">
+            <h1>Контакты</h1>
+            <div class="row"></div>
+                <div class="col-4"></div>
+                <div class="input-group mb-3">
+                    <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="exampleFormControlInput2">
+                        <div class="row"></div>
+                        <div class="col-sm-3"></div>
+                        <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Почта</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+                            <div class="card text-bg-secondary">
+                        </div>
+            <h2>Наши контакты</h2>
+            <div class="col-12">
+            <div class="card">
+  <div class="card-body">
+    Все возможные книги на сайте Bookmainone.ru
+  </div>
+</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
